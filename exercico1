@@ -1,0 +1,8 @@
+#contador de dias
+#$diaUsuario = Read-Host "Digite o dia"
+#$mesUsuario = Read-Host "Digite o mes"
+#$anoUsuario = Read-Host "Digite o ano"
+$dataUsuario = Read-Host "Digite a data"
+$dataAtual = Get-Date -Format d
+$total = ($dataUsuario - $dataAtual)
+"$total"
