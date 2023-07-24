@@ -1,5 +1,4 @@
-#converte a data digitada pelo usuáro em um objeto DateTime
-$dataInicial = [DateTime]::ParseExact((Read-Host "Digite a data (formato: dd/mm/yyyy)"), "dd/MM/yyyy", $null)
-
-#calcula a diferença entre as duas datas (em dias)
-"Dias contados desde $dataInicial até hoje: $((Get-Date) - $dataInicial) dias."
+$dataAtual = Get-Date -DisplayHint Date
+$dataUsuario =  [DateTime]::ParseExact((Read-Host "Digite a Data"), "dd/MM/yyyy", $null)
+$calculo = $dataAtual - $dataUsuario
+"Dias e horas calculados desde $dataUsuario até hoje:$calculo"
