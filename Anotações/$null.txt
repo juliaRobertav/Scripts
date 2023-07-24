@@ -1,0 +1,7 @@
+O que é NULL?
+Pode considerar NULL como um valor desconhecido ou vazio. Uma variável é NULL até atribuir um valor ou um objeto à mesma. Isto pode ser importante porque existem alguns comandos que requerem um valor e geram erros se o valor for NULO.
+
+$null do PowerShell
+$null é uma variável automática no PowerShell utilizada para representar NULL. Pode atribuí-lo a variáveis, utilizá-lo em comparações e utilizá-lo como um marcador de posição para NULL numa coleção.
+
+O PowerShell trata $null como um objeto com um valor nulo. Isto é diferente do que seria de esperar se viesse de outro idioma.
