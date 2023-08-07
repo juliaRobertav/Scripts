@@ -1,0 +1,50 @@
+Linguagem de Script:
+PowerShell
+*************************************************************************
+$ - variável
+Exemplo->
+$nome = "ETS"
+$nome_2 = Read-Host "Qual seu nome?"
+$frase = "Olá" + $nome_2
+$frase
+# Write-Host "Hello $nome"
+#ls
+-------------------------------------------------------------------------
+Command-lets - porções de código (relacionados a verbos)
+ex -> Get
+-> Add
+-> Clear
+-> Close
+-> Move
+-> New
+-> Show
+-> Start
+-> Stop
+-------------------------------------------------------------------------
+Funções - são vários comandos/porções de código
+-------------------------------------------------------------------------
+Arrays
+
+-------------------------------------------------------------------------
+
+Operadores Relacionais: Comparativos
+
+-lt -> menor que
+-le ->menor ou igual
+-gt -> maior que...
+-------------------------------------------------------------------------
+Vídeo Aula:
+Set -> envio um comando ao computador
+Write-Output -> comando de saída
+$ na frente = variável
+Existem algumas ações que ja estão prontas(como biblioteca/classe)
+ex -> $wshell = New-Object -com WScript.Shell 
+(criando um obj na classe, para acessa-la basta usar o obj)
+Popup(caixa de mensagem)
+Run(executa aplicativos)
+AppActivate -> ativa aplicativo
+Start-Sleep -> tempo de espera
+SendKeys -> mensagem no aplicativo
+Read-Host -> le o dado fornecido
+-------------------------------------------------------------------------
+Estruturas de decisão
